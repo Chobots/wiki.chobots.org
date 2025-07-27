@@ -1,0 +1,69 @@
+# Basic project information shown in the header and metadata
+site_name: The Chobots Wiki
+site_description: >
+  Welcome to The Chobots Wiki, a free encyclopedic resource for the game Chobots! 
+  We are dedicated to preserving the memory and legacy of Chobots and creating a guide for anyone to learn about the virtual world.
+site_author: Chobots Archive Organization
+# The copyright field appears in the footer. Adjust to reflect your project.
+copyright: "© 2008–2011 Vayersoft LLC; preserved by the Chobots Archive Organization"
+
+# Define the navigation menu. Each entry maps a label to a Markdown file
+# (or an external URL). You can add additional pages here as you migrate
+# content from Miraheze.
+nav:
+  - Home: index.md
+  # - About: about.md
+  - Developer Docs:
+      - Getting Started: "developer docs/getting-started.md"
+  - Collections:
+    - Fonts:
+      - Chubby Cheeks: collections/fonts/chubby-cheeks.md
+    - Common: 
+      - Getting Started: "collections/common/getting-started.md"
+      - Magic: "collections/common/magic.md"
+    - 2008-2011: 
+      - Getting Started: "collections/2008-2011/getting-started.md"
+    - 2011-2014: 
+        - Getting Started: "collections/2011-2014/getting-started.md"
+    - Private Servers: 
+        - What is a Private Server?: "collections/privateservers/getting-started.md"
+        - Chotopia.us: "collections/privateservers/chotopia.md"
+
+  # - Issue Tracker: https://example.com/  # Update with your GitHub Issues URL
+  # - Wiki: wiki-overview.md  # Example additional section for wiki migration
+
+# Theme configuration. ReadTheDocs is a clean, documentation‑focused theme.
+theme:
+  name: mkdocs
+  custom_dir: chodocs/
+  # logo: images/logo.png       # Optional: add a custom logo in the header
+  favicon: img/favicon.ico # Optional: custom favicon
+  logo: img/logo.svg
+  
+extra_css:
+  - css/chobots.css
+  - assets/css/fonts.css
+
+extra_javascript:
+  - js/chobots.js
+
+markdown_extensions:
+  - tables
+  - md_in_html
+
+# Link the docs back to the source repository. This enables “Edit on GitHub”
+# links in the theme.
+repo_url: https://github.com/Chobots
+# repo_name: Chobots           # Uncomment and set if you want a custom label
+
+# Options for deploying via mkdocs gh‑deploy; leave commented if using defaults.
+# remote_branch: gh-pages       # Branch where the site is published (default: gh-pages)
+# remote_name: origin           # Name of the git remote (default: origin)
+
+# Additional configuration options can go here. For example, enabling
+# plugins or changing where your Markdown files live (docs_dir).
+plugins:
+  - search
+  - git-authors
+# docs_dir: docs               # Directory for your Markdown files (default: docs)
+

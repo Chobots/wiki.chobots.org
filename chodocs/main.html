@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+
+{# Include our custom stylesheet #}
+{% block extrahead %}
+  {{ super() }}
+  <link rel="stylesheet" href="{{ 'css/chobots.css' | url }}">
+{% endblock %}
+
+{# Custom header with logo and navigation #}
+{% block header %}
+<header class="chobots-header">
+  <div class="chobots-container">
+    <nav class="site-nav" aria-label="Main navigation">
+      <button class="nav-toggle" aria-expanded="false" aria-label="Menu">
+        ☰
+      </button>
+      <ul>
+        {% for item in nav %}
+        <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>
+{% endblock %}
+
+{# Wrap the built-in content in our layout container #}
+{% block content %}
+  <div class="content-wrapper">
+    {{ super() }}
+  </div>
+{% endblock %}
+
+<!-- Place this OUTSIDE the wrapper -->
+<div id="toc-collapse">
+  {{ toc }}
+</div>
+
+
+{# Custom footer with attribution #}
+{% block footer %}
+<footer class="chobots-footer">
+  <a class="logo">
+    <img class="logo" src="{{ 'img/logo.svg' | url }}" alt="Chobots Archive logo">
+  </a>  
+  <p>© 2008–2011 Vayersoft LLC; preserved by the Chobots Archive Organization</p>
+  <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a></p>
+</footer>
+{% endblock %}
+
+<script>
+  const toc = document.getElementById("toc-collapse");
+  let lastScrollTop = 0;
+
+  window.addEventListener("scroll", function () {
+    let currentScroll = window.scrollY || document.documentElement.scrollTop;
+    if (currentScroll > lastScrollTop) {
+      // Scrolling down
+      toc.style.opacity = "0.1";
+    } else {
+      // Scrolling up
+      toc.style.opacity = "1";
+    }
+    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // Avoid -ve scroll
+  });
+
+  toc.addEventListener("mouseenter", () => toc.style.opacity = "1");
+  toc.addEventListener("mouseleave", () => toc.style.opacity = "0.1");
+</script>
+

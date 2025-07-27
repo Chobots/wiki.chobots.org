@@ -1,0 +1,19 @@
+/* docs/assets/css/fonts.css */
+
+@font-face {
+  font-family: 'Chubby Cheeks';
+  src: url('../fonts/CHUBBY.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.font-chubby {
+  font-family: 'Chubby Cheeks', sans-serif;
+}
+
+/* Increase size for samples and add spacing */
+.font-sample {
+  font-size: 2.2rem;
+  margin: 1rem 0;
+  display: block;
+}
