@@ -5,7 +5,7 @@ site_description: >
   We are dedicated to preserving the memory and legacy of Chobots and creating a guide for anyone to learn about the virtual world.
 site_author: Chobots Archive Organization
 # The copyright field appears in the footer. Adjust to reflect your project.
-copyright: "© 2008–2011 Vayersoft LLC; preserved by the Chobots Archive Organization"
+copyright: "Copyright © 2025 Chobots Archive Organization | Contains content Copyright © 2007–2011 Vayersoft LLC"
 
 # Define the navigation menu. Each entry maps a label to a Markdown file
 # (or an external URL). You can add additional pages here as you migrate
@@ -32,13 +32,11 @@ nav:
   # - Issue Tracker: https://example.com/  # Update with your GitHub Issues URL
   # - Wiki: wiki-overview.md  # Example additional section for wiki migration
 
-# Theme configuration. ReadTheDocs is a clean, documentation‑focused theme.
 theme:
   name: mkdocs
   custom_dir: chodocs/
-  # logo: images/logo.png       # Optional: add a custom logo in the header
   favicon: img/favicon.ico # Optional: custom favicon
-  logo: img/logo.svg
+  logo: img/logo.svg # Optional: add a custom logo in the header
   
 extra_css:
   - css/chobots.css
@@ -51,19 +49,14 @@ markdown_extensions:
   - tables
   - md_in_html
 
-# Link the docs back to the source repository. This enables “Edit on GitHub”
-# links in the theme.
-repo_url: https://github.com/Chobots
-# repo_name: Chobots           # Uncomment and set if you want a custom label
-
-# Options for deploying via mkdocs gh‑deploy; leave commented if using defaults.
-# remote_branch: gh-pages       # Branch where the site is published (default: gh-pages)
-# remote_name: origin           # Name of the git remote (default: origin)
+# Link the docs back to the source repository. This enables “Edit on GitHub” links in the theme.
+repo_url: https://github.com/Chobots/wiki.chobots.org
+repo_name: wiki.chobots.org
 
 # Additional configuration options can go here. For example, enabling
 # plugins or changing where your Markdown files live (docs_dir).
 plugins:
   - search
   - git-authors
-# docs_dir: docs               # Directory for your Markdown files (default: docs)
+docs_dir: docs # Directory for your Markdown files (default: docs)
 
