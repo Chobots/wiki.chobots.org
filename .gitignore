@@ -1,16 +1,3 @@
-/site
-docs/.DS_Store
-docs/.DS_Store
-site/.DS_Store
-chodocs/.DS_Store
-docs/img/.DS_Store
-chodocs/img/.DS_Store
-docs/assets/.DS_Store
-docs/collections/.DS_Store
-docs/developer docs/.DS_Store
-docs/img/collections/.DS_Store
-docs/collections/common/.DS_Store
-docs/img/collections/common/.DS_Store
-docs/img/collections/common/img/.DS_Store
-docs/img/collections/privateservers/.DS_Store
-docs/img/collections/privateservers/chobots3d/.DS_Store
+site
+**/.DS_Store
+.idea

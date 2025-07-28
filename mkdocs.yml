@@ -34,7 +34,7 @@ nav:
 
 theme:
   name: mkdocs
-  custom_dir: chodocs/
+  custom_dir: theme/
   favicon: img/favicon.ico # Optional: custom favicon
   logo: img/logo.svg # Optional: add a custom logo in the header
   
@@ -58,5 +58,5 @@ repo_name: wiki.chobots.org
 plugins:
   - search
   - git-authors
-docs_dir: docs # Directory for your Markdown files (default: docs)
-
+docs_dir: wiki # Directory for your Markdown files (default: docs)
+edit_uri: edit/main/wiki/
