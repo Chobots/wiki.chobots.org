@@ -12,12 +12,12 @@
   <img src="../chotopia/Chotopia_Logo.png" alt="Chotopia Logo" style="max-width: 300px;">
 </p>
 
-**Chotopia.us** is a [private server](../private-server/) which began as *Chobots.cf* in **April 2014**, later transitioning to *Chobots.ws*, and finally settling on **Chotopia**.
+**Chotopia.us** is a [private server](../privateservers/getting-started.md) which began as *Chobots.cf* in **April 2014**, later transitioning to *Chobots.ws*, and finally settling on **Chotopia**.
 
 ## Chotopia Specific Information
 
-- [Chotopia Quests](../quests/)
-- [Chotopia Missions](../missions/)
+- Chotopia Quests
+- Chotopia Missions
 - [List of Rooms](https://chobots.miraheze.org/wiki/Chobots_Locations#Chotopia.us_Rooms)
 
 ---
@@ -90,15 +90,15 @@ The server has since come back online and is occasionally updated. [Join the Dis
 
 ## Staff
 
-Created by **[Shadow](../staff/Shadow.md)**, the original staff included *Brock*, *Cake*, *Curi*, *Evan*, *Smurf*, *Elthomii/E2E2*, and others.
+Created by **Shadow**, the original staff included *Brock*, *Cake*, *Curi*, *Evan*, *Smurf*, *Elthomii/E2E2*, and others.
 
 | Name | Username | Position | Tenure |
 |------|----------|----------|--------|
 | Sorry | Sorry | Administrator | 2014– |
-| [Shadow](../staff/Shadow.md) | Shadow | Administrator | 2014– |
+| Shadow | Shadow | Administrator | 2014– |
 | Muffin | Muffin | Community Staff | 2014– |
 | Novo | Novo | Community Staff | 2014– |
-| [Brock](../staff/Brock.md) | imbrock | Developer | 2014–2015 |
+| Brock | imbrock | Developer | 2014–2015 |
 | N/A | Curi | Designer | 2014–? |
 | N/A | Antonio | Designer | 2019–2020 |
 | N/A | Smurf | Designer | 2014–? |

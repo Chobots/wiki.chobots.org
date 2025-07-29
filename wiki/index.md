@@ -42,9 +42,13 @@ The **Chobots Archive Organization** exists to preserve and document everything 
 
 If you’re interested in running or modifying Chobots yourself:
 
-1. Clone the source from our GitHub repository.
-2. Consult the [Getting Started Guide](developer docs/getting-started/) to install the Game and Server.
-3. Consult the [Getting Started Guide](developer docs/developer-guide.md) to prep and install.
+> [!CAUTION]
+> Until our efforts progress, this source contains numerous potentially extremely dangerous vulnerabilities. Running this
+> code locally, even if not published publicly, may expose you to security issues. Users run this code at their own
+> risk.
+
+1. Clone the source from our [GitHub repository](https://github.com/Chobots/Chobots).
+2. Consult the [Getting Started Guide](developer-docs/getting-started.md) to install the Game and Server.
 
 > **Want to contribute?** Fork the repository, submit a pull request or open an issue.  We particularly welcome improvements to documentation, bug fixes and new tooling for easier deployment.
 

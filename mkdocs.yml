@@ -14,7 +14,7 @@ nav:
   - Home: index.md
   # - About: about.md
   - Developer Docs:
-      - Getting Started: "developer docs/getting-started.md"
+      - Getting Started: "developer-docs/getting-started.md"
   - Collections:
     - Fonts:
       - Chubby Cheeks: collections/fonts/chubby-cheeks.md
@@ -57,6 +57,6 @@ repo_name: wiki.chobots.org
 # plugins or changing where your Markdown files live (docs_dir).
 plugins:
   - search
-  - git-authors
+#  - git-authors
 docs_dir: wiki # Directory for your Markdown files (default: docs)
 edit_uri: edit/main/wiki/
