@@ -2,10 +2,11 @@
   ⚠️ <strong>This page is out of date and needs to be updated.</strong>
 </div>
 
-<div style="background: rgba(5, 180, 86, 0.9); color: white; padding: 1em; border-radius: 10px; text-align: center; margin-bottom: 20px;">
+<!-- Commented Out and may be removed entirely in the future. -->
+<!--<div style="background: rgba(5, 180, 86, 0.9); color: white; padding: 1em; border-radius: 10px; text-align: center; margin-bottom: 20px;">
   ✅ <strong>This Server Re-opened on February 5, 2022! A Client is available for download at 
   <a href="https://www.chotopia.us/" style="color: #f8f9fa; text-decoration: underline;">Chotopia.us</a></strong>
-</div>
+</div>-->
 
 # Chotopia (Chotopia.us)
 

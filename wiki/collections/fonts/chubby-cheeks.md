@@ -42,11 +42,14 @@ In the **Chobots** MMO, Chubby Cheeks served as the **primary display typeface
 
 ## Attributes & References
 [^1]: [DaFont entry for Chubby Cheeks](https://www.dafont.com/chubby-cheeks.font) – identifies the designer, category and first appearance on font sites.
+<br>
 [^2]: [Readme from James’s Fonts on FreeBestFonts](https://www.freebestfonts.com/chubby-cheeks-font) – notes that Shields developed his fonts using Corel Draw and Softy and asks users to share what they do with his fonts.
 
+<!-- Comment Out AI Disclaimer
 ## AI Disclaimer
 <div style="background: linear-gradient(90deg, rgba(0, 163, 108, 0.9), rgba(14, 179, 110, 0.9)); color: white; padding: 1em; border-radius: 10px; text-align: center; margin-bottom: 20px;">
   🤖 <strong>This article was created with assistance from ChatGPT</strong><br/>
   AI tools were used to help draft, modify or migrate content from legacy sources. All AI-assisted pages are reviewed for accuracy and must be appropriately tagged.
   <br><small>Look for AI tags at the top or bottom of the article to learn more.</small>
 </div>
+-->
