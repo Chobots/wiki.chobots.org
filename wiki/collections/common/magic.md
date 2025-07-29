@@ -356,10 +356,10 @@ background: linear-gradient(to bottom, #FFCC99 0%, #FFE0B3 100%); border-radius:
 background: linear-gradient(to bottom, #FFCC99 0%, #FFE0B3 100%); border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 15px;">
   <div style="display: flex; flex-wrap: wrap;">
     <div style="flex: 0 0 100px; margin-right: 15px;">
-      <img src="../magic/MagicCharly.webp" alt="Black & White (Charlie Chaplin Magic)" width="100"/>
+      <img src="../magic/MagicCharly.webp" alt="Black & White" width="100"/>
     </div>
     <div style="flex: 1;">
-      <h3 style="color: #CC6600;">Black & White (Charlie Chaplin Magic)</h3>
+      <h3 style="color: #CC6600;">Black & White</h3>
       <p><strong>Description:</strong> Have you ever seen Charlie Chaplin's films? Yeah, that black and white fun!</p>
       <ul>
         <li>Expires after 120 seconds</li>
