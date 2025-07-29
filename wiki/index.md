@@ -8,16 +8,16 @@
 </div>
 
 <p align="center">
-  <img src="img/Discord-Banner-ChobotsArchiveOrganization.jpg" alt="Chobots.org Logo" style="width:540px; margin-bottom: 2rem;" />
+  <img src="img/logo.svg" alt="The Chobots Wiki Logo" style="width:540px; margin-bottom: 2rem;" />
 </p>
-
+<!--
 <div class="chobots-button-row">
   <a href="/collections/common/getting-started/"><img src="img/era1.png" alt="Common" class="chobots-button" /></a>
   <a href="/developer%20docs/getting-started/"><img src="img/era1.png" alt="Development" class="chobots-button" /></a>
   <a href="/collections/2008-2011/getting-started/"><img src="img/era1.png" alt="Chobots.com" class="chobots-button" /></a>
   <a href="/collections/2011-2014/getting-started/"><img src="img/era1.png" alt="Chobots.net" class="chobots-button" /></a>
   <a href="/collections/privateservers/getting-started/"><img src="img/era1.png" alt="Private Servers" class="chobots-button" /></a>
-</div>
+</div> -->
 
 ## What is Chobots?
 
