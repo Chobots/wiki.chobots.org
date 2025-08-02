@@ -21,8 +21,18 @@ nav:
     - Common: 
       - Getting Started: "collections/common/getting-started.md"
       - Magic: "collections/common/magic.md"
+      - Rooms:
+        - Café Street: "collections/common/rooms/loc3.md"
+        - The Park: "collections/common/rooms/locPark.md"
+        - Agents HQ: "collections/common/rooms/locAgents.md"
+        - locSecret: "collections/common/rooms/locSecret.md"
+      - Characters:
+        - Chopix: "collections/common/characters/chopix.md"
+        - Chistochob: "collections/common/characters/chistochob.md"
+      - Missions:
+        - Nicho Kingdom: "collections/common/missions/nichokingdom/missionNichos.md"
     - 2008-2011: 
-      - Getting Started: "collections/2008-2011/getting-started.md"
+      - Chobots Staff: "collections/2008-2011/chobots-staff.md"
     - 2011-2014: 
         - Getting Started: "collections/2011-2014/getting-started.md"
     - Private Servers: 

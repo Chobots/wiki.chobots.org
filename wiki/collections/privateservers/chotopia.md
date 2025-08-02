@@ -66,7 +66,7 @@ Chotopia has had a Discord, forum, events, and parties. As of now, its Discord h
 
 ![Chotopia Homepage 2024](chotopia/Chotopia2024.png)
 
-Chotopia is the **longest living Chobots private server**, likely with the third largest playerbase behind Chobots.net and Chobots.com.
+Chotopia is the **longest living Chobots server**, likely with the third largest playerbase behind Chobots.net and Chobots.com.
 
 ---
 

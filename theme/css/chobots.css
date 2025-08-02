@@ -23,6 +23,11 @@ body {
   border: 1px solid rgba(246, 247, 249, 0);
 }
 
+.col-md-9 {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
 blockquote {
   padding-left: 10px;
   border-left: 4px solid #e6e6e6;
@@ -173,20 +178,47 @@ blockquote {
 /* ============ Floating TOC Sidebar ============ */
 
 #toc-collapse {
+  opacity: 0.05;
   position: fixed;
-  top: 120px;
-  right: 2rem;
+  bottom: 1.5rem;
+  right: 1.5rem;
   width: 280px;
-  max-height: calc(100vh - 140px);
+  max-height: calc(100vh - 3rem);
   overflow-y: auto;
-  background: rgba(255, 255, 255, 0.92);
-  backdrop-filter: blur(8px);
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(10px);
   border-radius: 16px;
   padding: 1.2rem 1.5rem;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
   z-index: 999;
   font-size: 0.95rem;
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transition: opacity 0.8s ease-in-out, transform 0.3s ease-in-out;
+  animation: toc-entry 1s ease-out;
+}
+
+.bg-body-tertiary {
+  --bs-bg-opacity: 0.1;
+  background-color: rgba(var(--bs-tertiary-bg-rgb),var(--bs-bg-opacity))!important;
+}
+
+.navbar-expand-md .navbar-collapse {
+  display: inline-table;
+}
+
+#toc-collapse.hidden {
+  opacity: 0.1;
+}
+
+#toc-collapse:hover,
+#toc-collapse:focus-within {
+  opacity: 1;
+  transform: scale(1.01);
+}
+
+@keyframes toc-entry {
+  0%   { opacity: 0; transform: translateY(20px) rotate(-1deg); }
+  50%  { transform: translateY(-4px) rotate(1deg); }
+  100% { opacity: 1; transform: translateY(0) rotate(0); }
 }
 
 #toc-collapse ul.nav {

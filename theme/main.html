@@ -11,6 +11,10 @@
 <header class="chobots-header">
   <div class="chobots-container">
     <nav class="site-nav" aria-label="Main navigation">
+      <!-- Table of Contents -->
+        <div id="toc-collapse">
+          {{ toc }}
+        </div>
       <button class="nav-toggle" aria-expanded="false" aria-label="Menu">
         ☰
       </button>
@@ -31,11 +35,6 @@
   </div>
 {% endblock %}
 
-<!-- Place this OUTSIDE the wrapper -->
-<div id="toc-collapse">
-  {{ toc }}
-</div>
-
 
 {# Custom footer with attribution #}
 {% block footer %}
@@ -49,22 +48,32 @@
 {% endblock %}
 
 <script>
-  const toc = document.getElementById("toc-collapse");
-  let lastScrollTop = 0;
+  window.addEventListener("DOMContentLoaded", () => {
+    const toc = document.getElementById("toc-collapse");
+    if (!toc) return;
 
-  window.addEventListener("scroll", function () {
-    let currentScroll = window.scrollY || document.documentElement.scrollTop;
-    if (currentScroll > lastScrollTop) {
-      // Scrolling down
-      toc.style.opacity = "0.1";
-    } else {
-      // Scrolling up
-      toc.style.opacity = "1";
+    let lastScrollTop = 0;
+    let fadeTimeout;
+
+    function fadeOutTOC() {
+      toc.classList.add("hidden");
     }
-    lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // Avoid -ve scroll
+
+    function fadeInTOC() {
+      toc.classList.remove("hidden");
+      clearTimeout(fadeTimeout);
+      fadeTimeout = setTimeout(fadeOutTOC, 3000);
+    }
+
+    window.addEventListener("scroll", () => {
+      fadeInTOC();
+      lastScrollTop = window.scrollY || document.documentElement.scrollTop;
+    });
+
+    toc.addEventListener("mouseenter", () => toc.classList.remove("hidden"));
+    toc.addEventListener("mouseleave", () => fadeTimeout = setTimeout(fadeOutTOC, 3000));
+
+    // Initial fade-out after load
+    setTimeout(fadeOutTOC, 4000);
   });
-
-  toc.addEventListener("mouseenter", () => toc.style.opacity = "1");
-  toc.addEventListener("mouseleave", () => toc.style.opacity = "0.1");
 </script>
-
