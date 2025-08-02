@@ -7,7 +7,7 @@ description: Private underground room accessible only by Agents.
 <div style="float: right; width:300px; margin-left:1em; margin-bottom:1em; border:1px solid #FFA500; padding:10px; background: rgba(255, 255, 255, 0.85); border-radius: 10px; box-shadow: 0px 4px 8px rgba(0,0,0,0.1); font-size: 0.9em;">
 
 <h3 style="margin-top: 0;">Agents HQ (locAgents)</h3>
-<img src="/img/LocAgents.png" alt="Agents HQ Banner" style="width: 100%; border-radius: 6px; margin-bottom: 8px;" />
+<img src="/collections/common/rooms/img/LocAgents.png" alt="Agents HQ Banner" style="width: 100%; border-radius: 6px; margin-bottom: 8px;" />
 <div style="font-style: italic; margin-bottom: 0.5em;">Inside Agents HQ</div>
 
 <table style="width: 100%;">
@@ -27,7 +27,7 @@ This room was **not accessible to regular players** unless they had obtained **A
 
 It was located **beneath the Park**, accessible through the **Blue Pipe** inside the Agent Graphity Tunnel — though the animation was only visible to Agents.
 
-<img src="/img/agentshq-entrance.png" alt="Agents HQ Entrance" style="width: 40%; border-radius: 6px; margin-bottom: 8px;" />
+<img src="/collections/common/rooms/img/agentshq-entrance.png" alt="Agents HQ Entrance" style="width: 40%; border-radius: 6px; margin-bottom: 8px;" />
 <div style="font-style: italic; margin-bottom: 0.5em;">Entrance to Agents HQ</div>
 
 ---

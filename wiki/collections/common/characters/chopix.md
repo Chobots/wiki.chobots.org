@@ -10,7 +10,7 @@ description: Quest Giver NPC from Chobots
 
 <div style="float: right; width:300px; margin-left:1em; margin-bottom:1em; border:1px solid #FFA500; padding:10px; background: rgba(255, 255, 255, 0.85); border-radius: 10px; box-shadow: 0px 4px 8px rgba(0,0,0,0.1); font-size: 0.9em;">
 <h3 style="margin-top: 0;">Chopix</h3>
-<img src="/img/Chopix.jpeg" alt="Chopix" style="width: 100%; border-radius: 6px; margin-bottom: 8px;" />
+<img src="/collections/common/characters/img/Chopix.jpeg" alt="Chopix" style="width: 100%; border-radius: 6px; margin-bottom: 8px;" />
 
 <table style="width: 100%;">
   <tr><th align="left">Location</th><td><a href="../locPark/">The Park</a></td></tr>
@@ -19,11 +19,11 @@ description: Quest Giver NPC from Chobots
   <tr><th align="left">Origin Game</th><td>Chobots.com</td></tr>
   <tr><th align="left">Rewards</th>
     <td>
-      <img src="/img/ChopixGlassesArtwork.png" alt="Chopix Glasses" style="height: 32px;" />
+      <img src="/collections/common/characters/img/ChopixGlassesArtwork.png" alt="Chopix Glasses" style="height: 32px;" />
       Chopix Glasses<br/>
-      <img src="/img/Bug.png" alt="50 Bugs" style="height: 24px;" />
+      <img src="/collections/common/characters/img/Bug.png" alt="50 Bugs" style="height: 24px;" />
       50 Bugs<br/>
-      <img src="/img/Bugs.png" alt="1000 Bugs" style="height: 24px;" />
+      <img src="/collections/common/characters/img/Bugs.png" alt="1000 Bugs" style="height: 24px;" />
       1000 Bugs
     </td>
   </tr>
@@ -44,13 +44,13 @@ Once equipped, speaking to Chopix again will begin the quest. Spy Bots will spaw
 
 Players earn:
 
-- <img src="/img/Bug.png" alt="Bug Icon" style="height: 32px;" /> **50 Bugs** per collected Spy Bot.
+- <img src="/collections/common/characters/img/Bug.png" alt="Bug Icon" style="height: 32px;" /> **50 Bugs** per collected Spy Bot.
 
 It’s recommended to use **Speed Magic** or **Items** with *speed modifiers* for quicker completion.
 
 <div style="border: 1px solid #AAA; background: #f9f9f9; padding: 1rem; border-radius: 8px; margin-top: 1rem;">
 <strong>🪄 Magic Item: Speed Magic</strong><br/>
-<img src="../magic/SpeedCandy.webp" alt="Speed Magic" style="height: 128px; vertical-align: middle;" /> <em>“Wanna run at lightning speed? Eat this candy. Come on! Shovel it down!”</em><br/>
+<img src="/collections/common/magic/SpeedCandy.webp" alt="Speed Magic" style="height: 128px; vertical-align: middle;" /> <em>“Wanna run at lightning speed? Eat this candy. Come on! Shovel it down!”</em><br/>
 <strong>+4 Movement Speed</strong><br/>
 <small>Expires after 60 seconds</small>
 </div>

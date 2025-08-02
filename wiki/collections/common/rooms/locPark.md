@@ -7,7 +7,7 @@ description: Original public space in Chobots known for quests, games, and moder
 <div style="float: right; width:300px; margin-left:1em; margin-bottom:1em; border:1px solid #FFA500; padding:10px; background: rgba(255, 255, 255, 0.85); border-radius: 10px; box-shadow: 0px 4px 8px rgba(0,0,0,0.1); font-size: 0.9em;">
 
 <h3 style="margin-top: 0;">The Park (locPark)</h3>
-<img src="/img/ParkImage_Spring.png" alt="The Park Spring" style="width: 100%; border-radius: 6px; margin-bottom: 8px;" />
+<img src="/collections/common/rooms/img/ParkImage_Spring.png" alt="The Park Spring" style="width: 100%; border-radius: 6px; margin-bottom: 8px;" />
 <div style="font-style: italic; margin-bottom: 0.5em;">The Park during Spring</div>
 
 <table style="width: 100%;">
@@ -37,9 +37,9 @@ The Park (locPark) is a public room and one of the original locations in *Chobot
 
 ## Images and Media
 
-<img src="/img/ParkImage.png" alt="The Park" style="max-width: 100%; border-radius: 8px;" />
-<img src="/img/ParkImage_Fall.png" alt="The Park during Fall" style="max-width: 100%; border-radius: 8px;" />
-<img src="/img/ParkImage_Winter.png" alt="The Park during Winter" style="max-width: 100%; border-radius: 8px;" />
+<img src="/collections/common/rooms/img/ParkImage.png" alt="The Park" style="max-width: 100%; border-radius: 8px;" />
+<img src="/collections/common/rooms/img/ParkImage_Fall.png" alt="The Park during Fall" style="max-width: 100%; border-radius: 8px;" />
+<img src="/collections/common/rooms/img/ParkImage_Winter.png" alt="The Park during Winter" style="max-width: 100%; border-radius: 8px;" />
 
 <div class="video-embed">
   <iframe width="100%" height="315" src="https://www.youtube.com/embed/dg7YAz1gClo" frameborder="0" allowfullscreen></iframe>

@@ -13,7 +13,7 @@ description: Quest-giving character located at Space Quay in Chobots.
 <div style="float: right; width:300px; margin-left:1em; margin-bottom:1em; border:1px solid #FFA500; padding:10px; background: rgba(255, 255, 255, 0.85); border-radius: 10px; box-shadow: 0px 4px 8px rgba(0,0,0,0.1); font-size: 0.9em;">
 
 <h3 style="margin-top: 0;">Chistochob</h3>
-<img src="/img/Chistochob.png" alt="Chistochob" style="width: 100%; border-radius: 6px; margin-bottom: 8px;" />
+<img src="/collections/common/characters/img/Chistochob.png" alt="Chistochob" style="width: 100%; border-radius: 6px; margin-bottom: 8px;" />
 
 <table style="width: 100%;">
   <tr><th align="left">Location</th><td><a href="../loc1">Space Quay</a></td></tr>
@@ -42,6 +42,6 @@ Upon first speaking to Chistochob, players receive a **garbage vacuum** item whi
 
 Speaking to Chistochob again after equipping the vacuum will start the quest. Successful completion of the quest rewards players with:
 
-- <img src="/img/CleanerVacuum.png" alt="Vacuum Cleaner" style="height: 54px;" /> **Vacuum Cleaner** - First time starting the quest. (Must be worn to pick-up trash)
-- <img src="/img/Bug.png" alt="20 Bugs" style="height: 48px;" /> **20 Bugs** (in-game currency) - Each piece of trash picked up.
-- <img src="/img/CleanerBoots.png" alt="Cleaning Boots" style="height: 42px;" />  **Cleaning Boots** - Upon first time completing the quest.
+- <img src="/collections/common/characters/img/CleanerVacuum.png" alt="Vacuum Cleaner" style="height: 54px;" /> **Vacuum Cleaner** - First time starting the quest. (Must be worn to pick-up trash)
+- <img src="/collections/common/characters/img/Bug.png" alt="20 Bugs" style="height: 48px;" /> **20 Bugs** (in-game currency) - Each piece of trash picked up.
+- <img src="/collections/common/characters/img/CleanerBoots.png" alt="Cleaning Boots" style="height: 42px;" />  **Cleaning Boots** - Upon first time completing the quest.
